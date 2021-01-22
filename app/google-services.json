@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "767472175239",
+    "project_id": "fir-auth-52437",
+    "storage_bucket": "fir-auth-52437.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767472175239:android:49dd22d119aee4cab05022",
+        "android_client_info": {
+          "package_name": "com.example.sarthi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767472175239-l7vte0aq61ivle53e9viqghudqocbhf3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABXIlN-pC2OlHKiC3k_ubujtiTHeV2RQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767472175239-l7vte0aq61ivle53e9viqghudqocbhf3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  android:background="@drawable/doodle"
+    tools:context=".SignUpUser">
+
+    <EditText
+        android:id="@+id/user_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:drawableStart="@drawable/firstname"
+        android:drawablePadding="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="100dp"
+        android:paddingRight="15dp"
+        android:textSize="22sp"
+        android:drawableLeft="@drawable/firstname" />
+
+    <EditText
+        android:id="@+id/user_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:drawableStart="@drawable/firstname"
+        android:drawablePadding="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:paddingRight="15dp"
+        android:textSize="22sp"
+        android:drawableLeft="@drawable/firstname" />
+
+    <EditText
+        android:id="@+id/user_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:drawableStart="@drawable/address"
+        android:drawablePadding="10dp"
+        android:inputType="textMultiLine"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:paddingRight="15dp"
+        android:textSize="22sp"
+        android:drawableLeft="@drawable/address" />
+
+    <EditText
+        android:id="@+id/user_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:drawableStart="@drawable/age"
+        android:drawablePadding="10dp"
+        android:paddingLeft="15dp"
+        android:inputType="number"
+        android:paddingTop="20dp"
+        android:paddingRight="15dp"
+        android:textSize="22sp"
+        android:drawableLeft="@drawable/age" />
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:paddingRight="15dp"
+        android:inputType="textEmailAddress"
+        android:textSize="22sp"
+        android:drawableLeft="@drawable/email" />
+
+    <Button
+        android:id="@+id/btnSaveUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Save" />
+
+</LinearLayout>
